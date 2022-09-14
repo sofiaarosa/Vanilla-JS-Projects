@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#colorPanel{
+    width:100%;
+    height:70vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:flex-end;
+}
+
+#colorPanel span{
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+
+    background-color: black;
+    color:white;
+}
+
+#hex-color{
+    font-size:3rem;
+    text-transform: uppercase;
+}
+#rgba-color{
+    font-size:1.5rem;
+}
+
+main{
+    height: 30vh;
+    padding:10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main button{
+    border:0;
+    padding:5px;
+
+    font-size: 1.5rem;
+
+    background-color: rgb(202, 202, 202);
+}
+
+main button:hover{
+    cursor: pointer;
+    background-color: rgb(148, 148, 148);  
+}
